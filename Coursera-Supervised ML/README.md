@@ -31,3 +31,5 @@ W, b: parameters, weights, coefficients
 - Cost funtionc: get it better
 
 Mean squared error
+
+### Logistic Regession
