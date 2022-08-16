@@ -16,6 +16,18 @@ Machine learning algorithms:
     * Clustering: group similar data points together
     * Anomaly detection: Find unusual data
     * Dimentionality reduction: Compress data
-    
+
 * Semisupervised learning
 * Reinforce learning
+
+### Linear Regession: 
+
+- Fitting straight line to data
+- Regression model predicts numbers (Classification model predicts categories)
+
+Model: f_wb(X) = Wx + b
+W, b: parameters, weights, coefficients
+
+- Cost funtionc: get it better
+
+Mean squared error
