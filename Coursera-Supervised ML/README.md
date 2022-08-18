@@ -28,8 +28,16 @@ Machine learning algorithms:
 Model: f_wb(X) = Wx + b
 W, b: parameters, weights, coefficients
 
-- Cost funtionc: get it better
+- Cost funtionc: (get it better) Mean squared error
 
-Mean squared error
+
 
 ### Logistic Regession
+
+- Classification problems
+- Logistic function: 1/ (1 + e**(-f_wb))
+- Cost functionc: Cross entropy: −∑(i, k)= yi-log(zi)+(1−yi)log(1−zi)
+
+### Gradient Descent:
+
+Optimize loss
