@@ -55,3 +55,25 @@
     a = torch.linspace(-2, 2, steps =5)
     # [-2, -1, 0, 1, 2]
 </pre>
+
+
+### 2D, 3D Tensors, ...
+
+<pre>
+a = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+torch_tensor = torch.tensor(a)
+
+a.shape() #(3, 3)
+a.size() #(3, 3)
+a.numel() #9 numbers
+</pre>
+
+- matrix multiple
+
+<pre>
+c = torch.mm(a, b)
+</pre>
+
+### Derivative
+
+y/c: requires grad, and tensor float 
