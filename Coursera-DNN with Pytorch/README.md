@@ -76,4 +76,15 @@ c = torch.mm(a, b)
 
 ### Derivative
 
-y/c: requires grad, and tensor float 
+y/c: requires grad, and tensor float
+<pre>
+x = torch.tensor(2.0, requires_grad=True)
+y = x**2
+y.backward()
+</pre>
+
+### Dataset
+
+</pre>
+#np.ones
+torch.ones
