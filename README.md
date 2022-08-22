@@ -5,3 +5,5 @@
 ## Machine learning (2020)
 ## Neural Network  (2021)
 ## Attention (2022)
+## RNN (2022)
+## LSTM (2022)
