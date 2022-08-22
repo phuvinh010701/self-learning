@@ -89,6 +89,8 @@ y.backward()
 #np.ones
 torch.ones
 
+
+## Week 2
 ### Linear regession
 <pre>
 model.state_dict()['linear.weight'].data[0] = torch.tensor([0.512])
