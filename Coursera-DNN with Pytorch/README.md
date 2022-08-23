@@ -95,3 +95,4 @@ torch.ones
 <pre>
 model.state_dict()['linear.weight'].data[0] = torch.tensor([0.512])
 </pre>
+linear function: y_hat = b + wx
