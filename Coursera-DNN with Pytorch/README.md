@@ -105,3 +105,7 @@ model.state_dict()['linear.weight'].data[0] = torch.tensor([0.512])
 parameter are updated while training
 
 * <pre> optimizer.step() </pre>update parameters 
+
+* train, valid, test split to avoid overfitting
+
+* validation data is used for find the values of hyper parameters
