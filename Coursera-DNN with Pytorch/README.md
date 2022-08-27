@@ -96,6 +96,12 @@ find the best line fitting the points
 <pre>
 model.state_dict()['linear.weight'].data[0] = torch.tensor([0.512])
 </pre>
-linear function: y_hat = b + wx
-loss function: MSE = (yhat - y)^2
-cost: total loss
+* linear function: y_hat = b + wx
+
+* loss function: MSE = (yhat - y)^2
+* cost: total loss
+
+* parameter != hyper parameter -
+parameter are updated while training
+
+* <pre> optimizer.step() </pre>update parameters 
