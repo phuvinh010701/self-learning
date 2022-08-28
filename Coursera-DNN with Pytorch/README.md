@@ -109,3 +109,7 @@ parameter are updated while training
 * train, valid, test split to avoid overfitting
 
 * validation data is used for find the values of hyper parameters
+
+## Week3
+
+### Multi linear regession
