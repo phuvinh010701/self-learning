@@ -113,3 +113,8 @@ parameter are updated while training
 ## Week3
 
 ### Multi linear regession
+
+### Logistic regression
+linear -> sigmoid
+
+classified problem
