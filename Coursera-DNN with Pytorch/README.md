@@ -118,3 +118,13 @@ parameter are updated while training
 linear -> sigmoid
 
 classified problem
+
+<pre>
+my_model = nn.Sequential(nn.Linear(1, 1), nn.Sigmoid())
+
+#loss
+nn.BCELoss()
+</pre>
+
+### Cross entropy loss
+apply for classification
