@@ -128,3 +128,8 @@ nn.BCELoss()
 
 ### Cross entropy loss
 apply for classification
+
+## Week4
+
+### Simple neural network and training with pytorch
+### Backpropagation "backward()"
