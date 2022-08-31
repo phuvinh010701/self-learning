@@ -129,6 +129,8 @@ nn.BCELoss()
 ### Cross entropy loss
 apply for classification
 
+### Softmax 
+
 ## Week4
 
 ### Simple neural network and training with pytorch
