@@ -138,5 +138,6 @@ apply for classification
 
 ## Week5, 6
 
+### CNN
 ### Activation function, pooling
 ### Pre-trained model
