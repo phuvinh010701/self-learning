@@ -141,3 +141,19 @@ apply for classification
 ### CNN
 ### Activation function, pooling
 ### Pre-trained model
+### pytorch GPU training
+
+use GPU to run model faster
+GPU using CUDA - parallel computing platform
+
+<pre>
+    import torch
+    torch.cuda.is_available()
+    device = torch.device('cuda:0')
+    model = CNN()
+    model.to(device)
+</pre>
+
+<pre>
+    features, label = features.to(device), label.to(device)
+</pre>
