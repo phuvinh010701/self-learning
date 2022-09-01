@@ -135,3 +135,8 @@ apply for classification
 
 ### Simple neural network and training with pytorch
 ### Backpropagation "backward()"
+
+## Week5, 6
+
+### Activation function, pooling
+### Pre-trained model
