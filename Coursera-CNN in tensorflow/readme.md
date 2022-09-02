@@ -1,14 +1,20 @@
 # CNN in tensorflow
 
 ---
+<pre>
 
 /tmp/cats-v-dogs/training
-/tmp/cats-v-dogs/validation
-/tmp/cats-v-dogs/training/cats
-/tmp/cats-v-dogs/training/dogs
-/tmp/cats-v-dogs/validation/cats
-/tmp/cats-v-dogs/validation/dogs
 
+/tmp/cats-v-dogs/validation
+
+/tmp/cats-v-dogs/training/cats
+
+/tmp/cats-v-dogs/training/dogs
+
+/tmp/cats-v-dogs/validation/cats
+
+/tmp/cats-v-dogs/validation/dogs
+</pre>
 
 <pre>
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
