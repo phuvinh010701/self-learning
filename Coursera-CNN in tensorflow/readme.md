@@ -4,15 +4,10 @@
 <pre>
 
 /tmp/cats-v-dogs/training
-
 /tmp/cats-v-dogs/validation
-
 /tmp/cats-v-dogs/training/cats
-
 /tmp/cats-v-dogs/training/dogs
-
 /tmp/cats-v-dogs/validation/cats
-
 /tmp/cats-v-dogs/validation/dogs
 </pre>
 
@@ -52,4 +47,20 @@ history = model.fit(train_generator,
                     epochs=15,
                     verbose=1,
                     validation_data=validation_generator)
+
+acc=history.history['accuracy']
+val_acc=history.history['val_accuracy']
+loss=history.history['loss']
+val_loss=history.history['val_loss']
+
+epochs=range(len(acc)) # Get number of epochs
+
+#------------------------------------------------
+# Plot training and validation accuracy per epoch
+#------------------------------------------------
+plt.plot(epochs, acc, 'r', "Training Accuracy")
+plt.plot(epochs, val_acc, 'b', "Validation Accuracy")
+plt.title('Training and validation accuracy')
+plt.show()
+print("")
 <pre>
