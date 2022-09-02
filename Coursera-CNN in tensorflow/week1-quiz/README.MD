@@ -1,3 +1,4 @@
+1.
 Question 1
 What does flow_from_directory give you on the ImageDataGenerator?
 
@@ -111,7 +112,7 @@ There's no relationship between them
 
 The validation dataset is smaller, and thus less accurate at measuring accuracy, so its performance isn't as important
 
-Correct
+
 8.
 Question 8
 Why is overfitting more likely to occur on smaller datasets?
