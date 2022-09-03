@@ -63,4 +63,6 @@ plt.plot(epochs, val_acc, 'b', "Validation Accuracy")
 plt.title('Training and validation accuracy')
 plt.show()
 print("")
-<pre>
+</pre>
+
+### Image augmentation and data augmentation
