@@ -76,3 +76,7 @@ train_datagen = ImageDataGenerator(rescale=1. / 255,
                                     horizontal_flip=True,
                                     fill_mode='nearest')
 </pre>
+
+### Transfer learning
+
+train on model has been trained by someone                       
