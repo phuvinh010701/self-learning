@@ -10,7 +10,7 @@
 /tmp/cats-v-dogs/validation/cats
 /tmp/cats-v-dogs/validation/dogs
 </pre>
-
+## Baseline train model classification
 <pre>
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
@@ -66,6 +66,7 @@ print("")
 </pre>
 
 ### Image augmentation and data augmentation
+fix overfitting
 <pre>
 train_datagen = ImageDataGenerator(rescale=1. / 255,
                                     rotation_range=40,
