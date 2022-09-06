@@ -80,4 +80,11 @@ train_datagen = ImageDataGenerator(rescale=1. / 255,
 
 ### Transfer learning
 
-train on model has been trained by someone                       
+train on model has been trained by someone
+
+### Multi-classification
+
+change:
++ class_mode: binary -> categorical
++ loss: categorical | sparse categorical
++ last dense layers activation: sigmoid -> softmax
