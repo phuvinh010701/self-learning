@@ -20,3 +20,7 @@
 * Conv over volume
 
 <img src='storage/multple-conv.jpg' style='width: 40%'>
+
+    n x n x n_c *  f x f x f_d =  (n - f + 1) x (n - f + 1) x n_c
+
+    n_c: num filter
