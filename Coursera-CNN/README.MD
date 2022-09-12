@@ -7,4 +7,4 @@
 
 Convolution operation
 
-<img src='./storage'>
+<img src='storage/vertical-egde-detect.jpg' style='width: 40%'>
