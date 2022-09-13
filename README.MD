@@ -28,3 +28,11 @@
 ## Week3
 
 * AWS Lamda: is a computer service let u run code without provisioning or managing servers
+
+* Lambda function: packaging of the code that processes events
+
+* Event: is a JSON formatted docment containing data for a function to process
+
+* Concurrency: is the number of requests a function is serving at any given time
+
+* Trigger: is resource or configuration that invokes a function
