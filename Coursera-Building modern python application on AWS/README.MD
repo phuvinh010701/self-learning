@@ -36,3 +36,13 @@
 * Concurrency: is the number of requests a function is serving at any given time
 
 * Trigger: is resource or configuration that invokes a function
+
+* 2 ways to invoke lambda function: invok directly by calling API, set up triggers to invoke 
+
+* AWS Lambda Push/ Pull Modelshuts (when setting up a trigger):
+	* push model is where a trigger sends an event to lambda, which invokes lambda function. (resource-based policy must allow trigger to invoke lambda f)
+	* pull model AWS lambda pulls the event from the event source then invokes the lambda function.
+
+* SQS allows messages to build up in a queue and then code would process those messages
+
+* asynchronous vs synchronous lambda functions. For example s3 invokes lambda asynchronously, client -> api gateway -> invoke lambda synchronously
