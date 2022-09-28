@@ -15,7 +15,7 @@
 
 * Stride: padding p, strid s
 
-    n x n * f x f = (n + 2p - f) / 2 + 1    x    (n + 2p - f) / 2  + 1
+    n x n * f x f = (n + 2p - f) / s + 1    x    (n + 2p - f) / s  + 1
 
 * Conv over volume
 
@@ -24,3 +24,17 @@
     n x n x n_c *  f x f x f_d =  (n - f + 1) x (n - f + 1) x n_c
 
     n_c: num filter
+
+* Number of parameters
+
+    (f[l] * f[l] x n_c[l-1] + 1) x n_c[l]
+    f[l] filter height 
+    n_c[l-1] number of channels previous layer
+    n_c[l] number of channels current layers
+    1 bias
+
+* Why convolutions
+
+    Parameter sharing: A feature detector that's useful in one part of the image is probably useful in another part of the image (vi du filter phat hien canh o nhieu vi tri tren buc anh)
+    Sparsity of connections: In each layer, each output value depends only on a smaill number of inputs
+    good at capturing translation invariance
