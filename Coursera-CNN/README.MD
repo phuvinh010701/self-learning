@@ -38,3 +38,13 @@
     Parameter sharing: A feature detector that's useful in one part of the image is probably useful in another part of the image (vi du filter phat hien canh o nhieu vi tri tren buc anh)
     Sparsity of connections: In each layer, each output value depends only on a smaill number of inputs
     good at capturing translation invariance
+
+## Week2
+
+- Lenet-5 (1998)
+- Alexnet (2012)
+- VGG (2014)
+- InceptionNet (2014)
+- ResNet (2015)
+- DenseNet (2017)
+- MobileNet (2017)
