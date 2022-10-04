@@ -48,3 +48,15 @@
 - ResNet (2015)
 - DenseNet (2017)
 - MobileNet (2017)
+
+## Week3
+
+- Object localization
+- Object detection
+- Semantic segmantation
+- YOLO algorithm
+
+## Week4
+
+- Face regconition
+- Neural style transfer
