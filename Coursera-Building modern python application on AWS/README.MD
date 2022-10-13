@@ -46,3 +46,21 @@
 * SQS allows messages to build up in a queue and then code would process those messages
 
 * asynchronous vs synchronous lambda functions. For example s3 invokes lambda asynchronously, client -> api gateway -> invoke lambda synchronously
+
+## Week4
+
+* A state machine is a collection of states which allow you to perform the tasks in sequence
+
+* States are individuals elements of the state machine that make decisions base on inputs, perform actions, and provide output.
+
+* Tasks represent one unit of work done through activities or aws services. Task like a worker
+
+* 8 types of state of function
+
+	Task: do something
+	Choice: make some decisions
+	Parallel: execute somework in parallel
+	Map: execute portions of u state machine concurrently from array
+	Pass: trouble shooting, build stick machine
+	Wait: Add sleep statements
+	Success and Failure: stop execution
