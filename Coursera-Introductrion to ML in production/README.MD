@@ -19,3 +19,12 @@ production machine learning itself and the knowledge and skills required in mode
 * ML Operations
     
     Testing, versioning, continuous delivery and monitoring
+
+## Week1
+
+The Ml project lifecycle
+
+- Scoping: define project
+- Data: + Defind data and establish base line + Label and organize data
+- Modeling: Select and train model, Perform error analysis
+- Deployment: Deploy in production, Monitor & maintain system
