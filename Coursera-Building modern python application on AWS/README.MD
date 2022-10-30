@@ -64,3 +64,9 @@
 	Pass: trouble shooting, build stick machine
 	Wait: Add sleep statements
 	Success and Failure: stop execution
+
+## Week5
+
+* AWS X-Ray is a service collects data about requests. Tools use to view, filter, gain.
+* Segments: Computer resources running your application logic send data about their work as segments. A segment provides the resource's name, details about the request and details about the work done.
+* Segments can break down into subsegments
